@@ -1,0 +1,177 @@
+body {
+	/* IE10+ */ 
+	background-image: -ms-linear-gradient(bottom, #FFDBF9 0%, #FFFFFF 100%);
+
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(bottom, #FFDBF9 0%, #FFFFFF 100%);
+
+	/* Opera */ 
+	background-image: -o-linear-gradient(bottom, #FFDBF9 0%, #FFFFFF 100%);
+
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FFDBF9), color-stop(100, #FFFFFF));
+
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(bottom, #FFDBF9 0%, #FFFFFF 100%);
+
+	/* W3C Markup */ 
+	background-image: linear-gradient(to top, #FFDBF9 0%, #FFFFFF 100%);
+}
+
+.jumbotron {
+	height: 400px;
+	background-image: url('assets/img/people-2573216_1920.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.main-container {
+	background-color: #fff;
+	margin-top: -150px;
+	padding: 0px;
+	margin-bottom: 50px;
+	-webkit-box-shadow: 0px 1px 2px -1px rgba(50,50,51,1);
+	-moz-box-shadow: 0px 1px 2px -1px rgba(50,50,51,1);
+	box-shadow: 0px 1px 2px -1px rgba(50,50,51,1);
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #060606;
+    font-size: 20px;
+}
+
+.navbar-default .navbar-nav > li > a:active , .navbar-default .navbar-nav > li > a:hover ,
+ .navbar-default .navbar-nav > li > a:focus{
+    color: #4e199c;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus,
+ .navbar-default .navbar-nav > .active > a:hover {
+    color: #090909;
+    background-color: transparent;
+}
+
+
+.container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-left: -15px;
+    color: #f30093;
+    text-transform: uppercase;
+}
+
+.custom-nav {
+	background-color: #f0a7e5;
+	border-color: transparent;
+	border-radius: 0px;
+}
+
+.logo {
+	text-align: center;
+	padding-top: 35px;
+	padding-bottom: 70px;
+
+}
+
+.img-logo {
+	height: 150px;
+	width: 500px;
+}
+
+.full-content {
+	padding: 5px 30px;
+}
+
+.content {
+	padding-bottom: 30px;
+}
+
+.image {
+	padding: 5px;
+	border: 1px solid #eee;
+}
+
+.caption {
+	padding: 15px 0px;
+}
+
+.heading {
+	text-align: center;
+	border-top: 1px dashed #e65abd33;
+	margin: 15px 25px;
+}
+
+.actions {
+	padding-bottom: 20px;
+}
+
+.actions > .col-md-6 ul > li {
+	list-style: none;
+	float: right;
+}
+
+.actions > .col-md-6 ul > li > a {
+	padding: 0px 10px;
+	font-size: 20px;
+	color: #3b0d80;
+	#090708
+}
+
+.actions > .col-md-6 ul > li > a:focus , .actions > .col-md-6 ul > li > a:hover {
+	padding: 0px 10px;
+	font-size: 20px;
+	color: #090708;	
+}
+
+.side-content {
+	padding-top: 25px;
+	padding-right: 20px;
+	padding-left: 20px;
+	text-align: center;
+}
+
+.personal-content > .image {
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    margin: 0px 70px;
+}
+
+.personal-content > .image img {
+	border-radius: 50%;
+	height: 100%;
+	width: 100%;
+}
+
+.actions > .col-md-12 ul > li {
+	list-style: none;
+	float: left;
+}
+
+.actions > .col-md-12 ul > li > a {
+	padding: 0px 10px;
+	font-size: 20px;
+	color: #d51087;
+}
+
+.actions > .col-md-12 ul > li > a:focus , .actions > .col-md-12 ul > li > a:hover {
+	padding: 0px 10px;
+	font-size: 20px;
+	color: #090708;	
+}
+
+.other-content {
+	padding-top: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
+
+.footer {
+	margin-top: 70px;
+	padding: 30px 20px;
+	background-color: #4e199c80;
+	text-align: center;
+	color: black;
+	font-size: 18px;
+}
